@@ -1,0 +1,12 @@
+This is my implementation of the B+ Tree. It works by giving the commands in the following manner :-
+
+i x :- Insert an element x in the B+ Tree
+p :- Prints the B+ Tree
+l :- Prints all the Leaf Nodes of the B+ Tree
+x :- Destroys the Tree and makes it an empty Tree
+s x :- Searches the value x in the Tree
+q :- Quits the program
+
+The code uses External Merge Sort for sorting the data and generates the sorted data into a final file named output.txt. 
+Upon inserting any value the values is writed in the file input.txt and it creates temporary files within the code and 
+deletes them when the file output.txt gets created.
